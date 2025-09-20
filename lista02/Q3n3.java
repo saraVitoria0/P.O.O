@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q3n1 {
+public class Q3n3 {
 
     public void run(Scanner sc){
 

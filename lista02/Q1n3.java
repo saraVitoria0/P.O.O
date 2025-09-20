@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q1n1 {
+public class Q1n3 {
     public void run(Scanner sc) {  
         System.out.println("------CALCULADORA------");
         System.out.println("1 - Adição");

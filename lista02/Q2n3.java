@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class Q2n1 {
+public class Q2n3 {
     public void run(Scanner sc){
         
         System.out.println("------OPÇÕES------");
