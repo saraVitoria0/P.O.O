@@ -9,6 +9,9 @@ public class Main {
 
             Q2n1 q2n1 = new Q2n1();
             q2n1.run(sc);
+
+            Q3n1 q3n1 = new Q3n1();
+            q3n1.run(sc);
         } 
        
     }

@@ -3,12 +3,7 @@ import java.util.Scanner;
 
 public class Q2n1 {
     public void run(Scanner sc){
-        System.out.println("Digite o primeiro número inteiro: ");
-        int n1 = sc.nextInt();
-
-        System.out.println("Digite o segundo número inteiro: ");
-        int n2 = sc.nextInt();
-
+        
         System.out.println("------OPÇÕES------");
         System.out.println("1 - Verificar se um número é múltiplo do outro");
         System.out.println("2 - Verificar se os dois números são pares");
@@ -17,6 +12,19 @@ public class Q2n1 {
 
         System.out.println("Escolha uma opção: ");
         int opcao = sc.nextInt();
+
+
+        if(opcao == 4){
+            System.out.println("Saindo...");
+            return;
+        }
+
+        System.out.println("Digite o primeiro número inteiro: ");
+        int n1 = sc.nextInt();
+
+        System.out.println("Digite o segundo número inteiro: ");
+        int n2 = sc.nextInt();
+
 
         switch (opcao) {
             case 1 ->{

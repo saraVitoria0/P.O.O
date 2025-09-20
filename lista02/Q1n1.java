@@ -7,9 +7,16 @@ public class Q1n1 {
         System.out.println("2 - Subtração");
         System.out.println("3 - Multiplicação");
         System.out.println("4 - Divisão");
+        System.out.println("5 - Sair");
 
         System.out.print("Escolha uma opção: ");
         int opcao = sc.nextInt();
+
+        if(opcao == 5){
+            System.out.println("Saindo...");
+            return;
+
+        }
 
         System.out.print("Digite o primeiro número: ");
         double n1 = sc.nextDouble();
