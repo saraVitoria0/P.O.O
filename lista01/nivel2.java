@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 
+
 public class nivel2 {
 
     //! QUESTÃO 1

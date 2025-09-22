@@ -1,7 +1,10 @@
 
 import java.util.Scanner;
 
+
+
 public class nivel1 {
+
 
     //! QUESTÃO 1
 
