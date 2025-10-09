@@ -1,7 +1,9 @@
-public class contaPoupanca extends contaBancaria {
-    private final double taxaRendimento;
+package lista03.q2;
 
-    public contaPoupanca(String numeroConta, String titular, double saldo, double taxaRendimento) {
+public class ContaPoupanca extends ContaBancaria {
+    private double taxaRendimento;
+
+    public ContaPoupanca(String numeroConta, String titular, double saldo, double taxaRendimento) {
         super(numeroConta, titular, saldo);
         this.taxaRendimento = taxaRendimento;
     }

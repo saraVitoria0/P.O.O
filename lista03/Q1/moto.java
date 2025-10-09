@@ -1,14 +1,16 @@
-public class moto extends veiculo {
-    private final int cilindrada;
+package lista03.q1;
 
-    public moto(String marca, String modelo, int ano, double preco, int cilindrada) {
+public class Moto extends Veiculo {
+    private int cilindrada;
+
+    public Moto(String marca, String modelo, int ano, double preco, int cilindrada) {
         super(marca, modelo, ano, preco);
         this.cilindrada = cilindrada;
     }
 
     @Override
     public double calcularIpva() {
-        return preco * 0.02;
+        return preco * 0.02; // 2% do preço
     }
 
     @Override

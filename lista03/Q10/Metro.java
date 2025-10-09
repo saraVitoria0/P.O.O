@@ -1,3 +1,5 @@
+package lista03.q10;
+
 public class Metro extends Transporte {
     private boolean eletrico;
 

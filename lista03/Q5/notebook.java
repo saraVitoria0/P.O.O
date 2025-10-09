@@ -1,8 +1,10 @@
-public class notebook extends produtoEletronico {
+package lista03.q5;
+
+public class Notebook extends ProdutoEletronico {
     private String processador;
     private int memoriaRAM;
 
-    public notebook(String marca, String modelo, double preco, String voltagem, String processador, int memoriaRAM) {
+    public Notebook(String marca, String modelo, double preco, String voltagem, String processador, int memoriaRAM) {
         super(marca, modelo, preco, voltagem);
         this.processador = processador;
         this.memoriaRAM = memoriaRAM;
@@ -18,7 +20,5 @@ public class notebook extends produtoEletronico {
         super.exibirEspecificacoes();
         System.out.println("Processador: " + processador);
         System.out.println("Memória RAM: " + memoriaRAM + " GB");
-        System.out.println("-------------------------------");
     }
 }
-

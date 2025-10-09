@@ -1,10 +1,12 @@
-public class midia {
+package lista03.q6;
+
+public class Midia {
     protected String titulo;
     protected int anoLancamento;
     protected int duracao;
     protected double preco;
 
-    public midia(String titulo, int anoLancamento, int duracao, double preco) {
+    public Midia(String titulo, int anoLancamento, int duracao, double preco) {
         this.titulo = titulo;
         this.anoLancamento = anoLancamento;
         this.duracao = duracao;
@@ -23,4 +25,3 @@ public class midia {
         System.out.println("Aluguel: R$ " + calcularPrecoAluguel());
     }
 }
-

@@ -1,3 +1,5 @@
+package lista03.q7;
+
 public class Futebol extends Esporte {
     private double tamanhoCampo;
 
@@ -10,5 +12,10 @@ public class Futebol extends Esporte {
     public double calcularCustoEquipamento() {
         return 300.0;
     }
-}
 
+    @Override
+    public void exibirRegras() {
+        super.exibirRegras();
+        System.out.println("Tamanho do campo: " + tamanhoCampo + " metros");
+    }
+}

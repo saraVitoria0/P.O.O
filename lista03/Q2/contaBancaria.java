@@ -1,10 +1,11 @@
+package lista03.q2;
 
-public class contaBancaria {
+public class ContaBancaria {
     protected String numeroConta;
     protected double saldo;
     protected String titular;
 
-    public contaBancaria(String numeroConta, String titular, double saldo) {
+    public ContaBancaria(String numeroConta, String titular, double saldo) {
         this.numeroConta = numeroConta;
         this.titular = titular;
         this.saldo = saldo;
@@ -15,8 +16,10 @@ public class contaBancaria {
     }
 
     public void sacar(double valor) {
-        if (valor <= saldo) saldo -= valor;
-        else System.out.println("Saldo insuficiente!");
+        if (valor <= saldo)
+            saldo -= valor;
+        else
+            System.out.println("Saldo insuficiente!");
     }
 
     public void consultarSaldo() {

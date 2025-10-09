@@ -1,3 +1,5 @@
+package lista03.q9;
+
 public class Livro {
     protected String titulo;
     protected String autor;
@@ -22,4 +24,3 @@ public class Livro {
         System.out.println("Preço: R$ " + preco);
     }
 }
-

@@ -1,10 +1,12 @@
-public class imovel {
+package lista03.q4;
+
+public class Imovel {
     protected String endereco;
     protected double area;
     protected int numeroQuartos;
     protected double preco;
 
-    public imovel(String endereco, double area, int numeroQuartos, double preco) {
+    public Imovel(String endereco, double area, int numeroQuartos, double preco) {
         this.endereco = endereco;
         this.area = area;
         this.numeroQuartos = numeroQuartos;
@@ -20,6 +22,6 @@ public class imovel {
         System.out.println("Área: " + area + " m²");
         System.out.println("Quartos: " + numeroQuartos);
         System.out.println("Preço: R$ " + preco);
-        System.out.println("Taxa: R$ " + calcularTaxaAdministracao());
+        System.out.println("Taxa de Administração: R$ " + calcularTaxaAdministracao());
     }
 }

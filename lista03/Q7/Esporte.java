@@ -1,8 +1,10 @@
+package lista03.q7;
+
 public class Esporte {
     protected String nome;
     protected int numeroJogadores;
-    protected int duracaoPartida;
-    protected int popularidade;
+    protected int duracaoPartida; // em minutos
+    protected int popularidade; // 0 a 100
 
     public Esporte(String nome, int numeroJogadores, int duracaoPartida, int popularidade) {
         this.nome = nome;
@@ -20,7 +22,6 @@ public class Esporte {
         System.out.println("Jogadores: " + numeroJogadores);
         System.out.println("Duração: " + duracaoPartida + " min");
         System.out.println("Popularidade: " + popularidade);
-        System.out.println("Custo do equipamento: R$ " + calcularCustoEquipamento());
+        System.out.println("Custo Equipamento: R$ " + calcularCustoEquipamento());
     }
 }
-

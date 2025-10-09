@@ -1,3 +1,5 @@
+package lista03.q10;
+
 public class Onibus extends Transporte {
     private int numeroEixos;
 
@@ -8,7 +10,7 @@ public class Onibus extends Transporte {
 
     @Override
     public double calcularCustoViagem(double distancia) {
-        return super.calcularCustoViagem(distancia) * 0.80; // 20% desconto
+        return super.calcularCustoViagem(distancia) * 0.80; // 20% de desconto
     }
 
     @Override
@@ -17,6 +19,3 @@ public class Onibus extends Transporte {
         System.out.println("Número de eixos: " + numeroEixos);
     }
 }
-
-
-

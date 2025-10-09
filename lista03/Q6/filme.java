@@ -1,8 +1,10 @@
-public class filme extends midia {
+package lista03.q6;
+
+public class Filme extends Midia {
     private String diretor;
     private String genero;
 
-    public filme(String titulo, int anoLancamento, int duracao, double preco, String diretor, String genero) {
+    public Filme(String titulo, int anoLancamento, int duracao, double preco, String diretor, String genero) {
         super(titulo, anoLancamento, duracao, preco);
         this.diretor = diretor;
         this.genero = genero;
@@ -18,7 +20,5 @@ public class filme extends midia {
         super.exibirInfo();
         System.out.println("Diretor: " + diretor);
         System.out.println("Gênero: " + genero);
-        System.out.println("-------------------------------");
     }
 }
-

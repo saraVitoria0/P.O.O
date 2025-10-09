@@ -1,10 +1,13 @@
-public class main {
+package lista03.q3;
+
+public class Main {
     public static void main(String[] args) {
-        cursoPresencial cp = new cursoPresencial("Java", 40, 800, "Intermediário", "Sala 101");
+        CursoPresencial cp = new CursoPresencial("Java", 40, 800, "Intermediário", "Sala 101");
         cp.exibirInformacoes();
 
-        cursoOnline co = new cursoOnline("Python", 60, 600, "Básico", "Udemy");
+        System.out.println();
+
+        CursoOnline co = new CursoOnline("Python", 60, 600, "Básico", "Udemy");
         co.exibirInformacoes();
     }
 }
-

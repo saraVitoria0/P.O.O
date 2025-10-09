@@ -1,10 +1,12 @@
-public class veiculo {
+package lista03.q1;
+
+public class Veiculo {
     protected String marca;
     protected String modelo;
     protected int ano;
     protected double preco;
 
-    public veiculo(String marca, String modelo, int ano, double preco) {
+    public Veiculo(String marca, String modelo, int ano, double preco) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
@@ -12,7 +14,7 @@ public class veiculo {
     }
 
     public double calcularIpva() {
-        return preco * 0.04;
+        return preco * 0.04; // 4% do preço
     }
 
     public void exibirDetalhes() {

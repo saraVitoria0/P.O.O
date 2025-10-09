@@ -1,8 +1,10 @@
-public class serie extends midia {
+package lista03.q6;
+
+public class Serie extends Midia {
     private int numeroTemporadas;
     private int episodiosPorTemporada;
 
-    public serie(String titulo, int anoLancamento, int duracao, double preco, int numeroTemporadas, int episodiosPorTemporada) {
+    public Serie(String titulo, int anoLancamento, int duracao, double preco, int numeroTemporadas, int episodiosPorTemporada) {
         super(titulo, anoLancamento, duracao, preco);
         this.numeroTemporadas = numeroTemporadas;
         this.episodiosPorTemporada = episodiosPorTemporada;
@@ -18,7 +20,5 @@ public class serie extends midia {
         super.exibirInfo();
         System.out.println("Temporadas: " + numeroTemporadas);
         System.out.println("Episódios por temporada: " + episodiosPorTemporada);
-        System.out.println("-------------------------------");
     }
 }
-

@@ -1,7 +1,9 @@
+package lista03.q10;
+
 public class Transporte {
     protected int capacidadePassageiros;
     protected double velocidadeMaxima;
-    protected double consumo; // km por litro
+    protected double consumo; // km/l
     protected double preco;
 
     public Transporte(int capacidadePassageiros, double velocidadeMaxima, double consumo, double preco) {
@@ -22,5 +24,3 @@ public class Transporte {
         System.out.println("Preço do veículo: R$ " + preco);
     }
 }
-
-

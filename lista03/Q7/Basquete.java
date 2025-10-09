@@ -1,3 +1,5 @@
+package lista03.q7;
+
 public class Basquete extends Esporte {
     private double alturaCesta;
 
@@ -9,5 +11,11 @@ public class Basquete extends Esporte {
     @Override
     public double calcularCustoEquipamento() {
         return 400.0;
+    }
+
+    @Override
+    public void exibirRegras() {
+        super.exibirRegras();
+        System.out.println("Altura da cesta: " + alturaCesta + " m");
     }
 }

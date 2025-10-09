@@ -1,3 +1,5 @@
+package lista03.q9;
+
 public class LivroRaro extends Livro {
     private boolean edicaoLimitada;
 
@@ -10,6 +12,10 @@ public class LivroRaro extends Livro {
     public double calcularMultaAtraso(int dias) {
         return dias * 5.0;
     }
+
+    @Override
+    public void exibirFichaCatalografica() {
+        super.exibirFichaCatalografica();
+        System.out.println("Edição Limitada: " + (edicaoLimitada ? "Sim" : "Não"));
+    }
 }
-
-

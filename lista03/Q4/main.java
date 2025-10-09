@@ -1,9 +1,13 @@
-public class main {
+package lista03.q4;
+
+public class Main {
     public static void main(String[] args) {
-        apartamento apt = new apartamento("Rua A, 100", 80, 3, 300000, 5, 500);
+        Apartamento apt = new Apartamento("Rua A, 100", 80, 3, 300000, 5, 500);
         apt.exibirCaracteristicas();
 
-        casa casa = new casa("Av. B, 200", 120, 4, 500000, 60, true);
+        System.out.println();
+
+        Casa casa = new Casa("Av. B, 200", 120, 4, 500000, 60, true);
         casa.exibirCaracteristicas();
     }
 }

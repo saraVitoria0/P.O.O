@@ -1,8 +1,10 @@
-public class apartamento extends imovel {
-    private final int andar;
-    private final double valorCondominio;
+package lista03.q4;
 
-    public apartamento(String endereco, double area, int numeroQuartos, double preco, int andar, double valorCondominio) {
+public class Apartamento extends Imovel {
+    private int andar;
+    private double valorCondominio;
+
+    public Apartamento(String endereco, double area, int numeroQuartos, double preco, int andar, double valorCondominio) {
         super(endereco, area, numeroQuartos, preco);
         this.andar = andar;
         this.valorCondominio = valorCondominio;
@@ -18,7 +20,5 @@ public class apartamento extends imovel {
         super.exibirCaracteristicas();
         System.out.println("Andar: " + andar);
         System.out.println("Condomínio: R$ " + valorCondominio);
-        System.out.println("-------------------------------");
     }
 }
-

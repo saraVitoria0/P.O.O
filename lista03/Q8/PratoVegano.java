@@ -1,3 +1,5 @@
+package lista03.q8;
+
 import java.util.List;
 
 public class PratoVegano extends Prato {
@@ -12,5 +14,10 @@ public class PratoVegano extends Prato {
     public double calcularTaxaServico() {
         return preco * 0.05;
     }
-}
 
+    @Override
+    public void exibirCardapio() {
+        super.exibirCardapio();
+        System.out.println("Certificação Vegana: " + certificacaoVegan);
+    }
+}

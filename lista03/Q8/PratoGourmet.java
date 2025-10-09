@@ -1,3 +1,5 @@
+package lista03.q8;
+
 import java.util.List;
 
 public class PratoGourmet extends Prato {
@@ -11,5 +13,11 @@ public class PratoGourmet extends Prato {
     @Override
     public double calcularTaxaServico() {
         return preco * 0.15;
+    }
+
+    @Override
+    public void exibirCardapio() {
+        super.exibirCardapio();
+        System.out.println("Chef Responsável: " + chefResponsavel);
     }
 }

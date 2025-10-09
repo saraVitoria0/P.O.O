@@ -1,10 +1,12 @@
-public class produtoEletronico {
+package lista03.q5;
+
+public class ProdutoEletronico {
     protected String marca;
     protected String modelo;
     protected double preco;
     protected String voltagem;
 
-    public produtoEletronico(String marca, String modelo, double preco, String voltagem) {
+    public ProdutoEletronico(String marca, String modelo, double preco, String voltagem) {
         this.marca = marca;
         this.modelo = modelo;
         this.preco = preco;
@@ -23,4 +25,3 @@ public class produtoEletronico {
         System.out.println("Garantia Estendida: R$ " + calcularGarantiaEstendida());
     }
 }
-
